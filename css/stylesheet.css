@@ -1,0 +1,81 @@
+
+span{
+    font-size: medium;
+}
+
+nav{
+    font-size: large;
+}
+
+body{
+    background: url(../img/wallhaven-kxj3l1_1920x1080.png) repeat;
+}
+
+
+
+
+
+#welcome{
+   /* background:url(../img/blue\ bg.webp) repeat ;*/
+    
+    margin-top: 1%;
+    margin-left:0.5%;
+    border-radius: 5px;
+    font-size: larger;
+   
+   box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  100px 100px 80px rgba(0, 0, 0, 0.07) ;
+
+    
+}
+
+
+
+a{
+    text-decoration: none;
+    
+}
+
+/*Media query pour les ecrans tres larges*/
+@media (max-width:2000px){
+    #bienvenue h1{
+        font-size: xx-large;
+    }
+    
+}
+
+/* Media query pour les écrans de taille moyenne */
+@media (max-width: 768px) {
+    #bienvenue h1 {
+        font-size: 20px;
+    }
+
+    #bienvenue p {
+        font-size: 14px;
+    }
+    #center_card{
+        justify-content: center;
+    }
+}
+
+/* Media query pour les écrans plus petits (mobiles) */
+@media (max-width: 480px) {
+    #bienvenue h1 {
+        font-size: 18px;
+    }
+
+    #bienvenue p {
+        font-size: 12px;
+    }
+
+    #center_card{
+        align-self:self-start;
+        width: 509.75px;
+    }
+}
+
